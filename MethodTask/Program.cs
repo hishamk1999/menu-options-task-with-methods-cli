@@ -13,7 +13,6 @@
                 Console.Write("Enter your choice: ");
                 userInput = Console.ReadLine();
                 HandlUserInput(collection:collection,input:userInput);
-
             }
             while (userInput != "q" && userInput != "Q");
         }
